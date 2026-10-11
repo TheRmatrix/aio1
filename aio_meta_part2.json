@@ -1,0 +1,504 @@
+{
+  "version": "0.0.0-testing.20260505.1",
+  "exportedAt": "2026-05-05T06:50:02.091Z",
+  "config": {
+    "language": "en-US",
+    "addonName": "",
+    "includeAdult": false,
+    "blurThumbs": false,
+    "showPrefix": false,
+    "showMetaProviderAttribution": false,
+    "castCount": 10,
+    "displayAgeRating": false,
+    "showDisabledCatalogs": false,
+    "sfw": false,
+    "hideUnreleasedDigital": false,
+    "hideUnreleasedDigitalSearch": false,
+    "hideWatchedTrakt": false,
+    "hideWatchedAnilist": false,
+    "hideWatchedMdblist": false,
+    "providers": {
+      "movie": "tmdb",
+      "series": "tvdb",
+      "anime": "mal",
+      "anime_id_provider": "imdb",
+      "forceAnimeForDetectedImdb": false
+    },
+    "artProviders": {
+      "movie": {
+        "poster": "meta",
+        "background": "meta",
+        "logo": "meta"
+      },
+      "series": {
+        "poster": "meta",
+        "background": "meta",
+        "logo": "meta"
+      },
+      "anime": {
+        "poster": "meta",
+        "background": "imdb",
+        "logo": "imdb"
+      },
+      "englishArtOnly": false,
+      "originalLangFallback": false
+    },
+    "tvdbSeasonType": "default",
+    "mal": {
+      "skipFiller": false,
+      "skipRecap": false,
+      "allowEpisodeMarking": false,
+      "useImdbIdForCatalogAndSearch": false
+    },
+    "tmdb": {
+      "scrapeImdb": false,
+      "forceLatinCastNames": false
+    },
+    "apiKeys": {
+      "gemini": "",
+      "tmdb": "",
+      "tmdbReadAccessToken": "",
+      "tvdb": "",
+      "fanart": "",
+      "rpdb": "",
+      "topPoster": "",
+      "mdblist": "ti227g010b757jkf9z579c5jj",
+      "openrouter": "",
+      "publicmetadb": "",
+      "trakt": "",
+      "simkl": "",
+      "customDescriptionBlurb": "",
+      "addonVersion": "0.0.0-testing.20260505.1",
+      "hasBuiltInTvdb": true,
+      "hasBuiltInTmdb": true,
+      "catalogTTL": 86400,
+      "simklTrendingPageSizeOptions": [
+        50,
+        100
+      ],
+      "traktSearchEnabled": false
+    },
+    "posterRatingProvider": "custom",
+    "usePosterProxy": true,
+    "mdblistWatchTracking": true,
+    "anilistWatchTracking": true,
+    "simklWatchTracking": true,
+    "traktWatchTracking": true,
+    "publicmetadbWatchTracking": false,
+    "enableRatingPostersForLibrary": false,
+    "showRateMeButton": false,
+    "ageRating": "None",
+    "searchEnabled": true,
+    "sessionId": "",
+    "catalogSetupComplete": true,
+    "timezone": "America/Buenos_Aires",
+    "catalogs": [
+      {
+        "id": "mdblist.55172",
+        "type": "movie",
+        "name": "2000s Movies",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 1000,
+          "author": "ryankeast",
+          "url": "https://mdblist.com/lists/ryankeast/movies-decades-2000s",
+          "mediatype": "movie"
+        },
+        "displayType": "2000s Movies"
+      },
+      {
+        "id": "mdblist.55171",
+        "type": "movie",
+        "name": "2010s Movies",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 1000,
+          "author": "ryankeast",
+          "url": "https://mdblist.com/lists/ryankeast/movies-decades-2010s",
+          "mediatype": "movie"
+        },
+        "displayType": "2010s Movies"
+      },
+      {
+        "id": "mdblist.55170",
+        "type": "movie",
+        "name": "2020s Movies",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 1000,
+          "author": "ryankeast",
+          "url": "https://mdblist.com/lists/ryankeast/movies-decades-2020s-a2h6mk0dh0",
+          "mediatype": "movie"
+        },
+        "displayType": "2020s Movies"
+      },
+      {
+        "id": "mdblist.8113",
+        "type": "movie",
+        "name": "Christmas Movies",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 149,
+          "author": "hdlists",
+          "url": "https://mdblist.com/lists/hdlists/christmas-movies",
+          "mediatype": "movie"
+        },
+        "displayType": "Christmas Movies"
+      },
+      {
+        "id": "mdblist.7943",
+        "type": "movie",
+        "name": "Thanksgiving Movies",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 70,
+          "author": "hdlists",
+          "url": "https://mdblist.com/lists/hdlists/thanksgiving-movies",
+          "mediatype": "movie"
+        },
+        "displayType": "Thanksgiving Movies"
+      },
+      {
+        "id": "mdblist.41422",
+        "type": "movie",
+        "name": "Best Halloween Movies of All Time",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 128,
+          "author": "hdlists",
+          "url": "https://mdblist.com/lists/hdlists/halloween-movies-the-best-of-all-time",
+          "mediatype": "movie"
+        },
+        "displayType": "Best Halloween Movies of All Time"
+      },
+      {
+        "id": "mdblist.142222",
+        "type": "movie",
+        "name": "Top Valentine's Movies",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 211,
+          "author": "craigywulse23",
+          "url": "https://mdblist.com/lists/craigywulse23/top-valentines-movies",
+          "mediatype": "movie"
+        },
+        "displayType": "Top Valentine's Movies"
+      },
+      {
+        "id": "letterboxd.mv94",
+        "type": "movie",
+        "name": "St. Patrick's Day",
+        "enabled": true,
+        "showInHome": false,
+        "source": "letterboxd",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 64,
+          "isWatchlist": false,
+          "identifier": "mv94",
+          "url": "https://letterboxd.com/blood_countess/list/st-patricks-day/"
+        },
+        "displayType": "St. Patrick's Day"
+      },
+      {
+        "id": "letterboxd.HSJte",
+        "type": "movie",
+        "name": "Day of the Dead: Mexican Horror",
+        "enabled": true,
+        "showInHome": false,
+        "source": "letterboxd",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 65,
+          "isWatchlist": false,
+          "identifier": "HSJte",
+          "url": "https://letterboxd.com/cinemathek_zlb/list/dia-de-los-muertos-mexican-horror-the-full/"
+        },
+        "displayType": "Day of the Dead: Mexican Horror"
+      },
+      {
+        "id": "mdblist.29324",
+        "type": "movie",
+        "name": "Movies Based on True Stories",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 5776,
+          "author": "slander2328",
+          "url": "https://mdblist.com/lists/slander2328/movies-based-on-a-true-story",
+          "mediatype": "movie"
+        },
+        "displayType": "Movies Based on True Stories"
+      },
+      {
+        "id": "mdblist.3129",
+        "type": "movie",
+        "name": "Superhero & Comic Book Movies",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 526,
+          "author": "jmla",
+          "url": "https://mdblist.com/lists/jmla/superhero-based-on-comic-superhuman-abilities",
+          "mediatype": "movie"
+        },
+        "displayType": "Superhero & Comic Book Movies"
+      },
+      {
+        "id": "mdblist.14813",
+        "type": "movie",
+        "name": "Movies Based on Video Games",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 70,
+          "author": "awesomeaustn",
+          "url": "https://mdblist.com/lists/awesomeaustn/movies-based-on-video-games-live-action"
+        },
+        "displayType": "Movies Based on Video Games"
+      },
+      {
+        "id": "mdblist.51458",
+        "type": "movie",
+        "name": "Movies Based on Books",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 2495,
+          "author": "godzgiftmm",
+          "url": "https://mdblist.com/lists/godzgiftmm/based-on-a-book-uncollected",
+          "mediatype": "movie"
+        },
+        "displayType": "Movies Based on Books"
+      },
+      {
+        "id": "letterboxd.iUlkw",
+        "type": "movie",
+        "name": "Biographies",
+        "enabled": true,
+        "showInHome": false,
+        "source": "letterboxd",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 200,
+          "isWatchlist": false,
+          "identifier": "iUlkw",
+          "url": "https://letterboxd.com/nislav2001/list/biographies/"
+        }
+      },
+      {
+        "id": "mdblist.83601",
+        "type": "movie",
+        "name": "60 Minutes or Less",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 186,
+          "author": "roolfer",
+          "url": "https://mdblist.com/lists/roolfer/higesht-rated-unwatched-60-minutes-or-less",
+          "mediatype": "movie"
+        },
+        "displayType": "60 Minutes or Less"
+      },
+      {
+        "id": "mdblist.83707",
+        "type": "movie",
+        "name": "90 Minutes or Less",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 180,
+          "author": "roolfer",
+          "url": "https://mdblist.com/lists/roolfer/highest-rated-unwatched-90-minutes-or-less",
+          "mediatype": "movie"
+        },
+        "displayType": "90 Minutes or Less"
+      },
+      {
+        "id": "mdblist.141346",
+        "type": "movie",
+        "name": "Under 2 Hours",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 100,
+          "author": "stephenwall95",
+          "url": "https://mdblist.com/lists/stephenwall95/popular-movies-under-2-hours",
+          "mediatype": "movie"
+        },
+        "displayType": "Under 2 Hours"
+      },
+      {
+        "id": "letterboxd.bjMmi",
+        "type": "movie",
+        "name": "Long Movies",
+        "enabled": true,
+        "showInHome": false,
+        "source": "letterboxd",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 200,
+          "isWatchlist": false,
+          "identifier": "bjMmi",
+          "url": "https://letterboxd.com/frantz/list/long-movies/"
+        },
+        "displayType": "Long Movies"
+      }
+    ],
+    "search": {
+      "enabled": false,
+      "ai_enabled": false,
+      "ai_provider": "gemini",
+      "ai_model": "gemini-2.5-flash-lite",
+      "providers": {
+        "movie": "tmdb.search",
+        "series": "tvdb.search",
+        "anime_movie": "mal.search.movie",
+        "anime_series": "mal.search.series",
+        "people_search_movie": "tmdb.people.search",
+        "people_search_series": "tmdb.people.search"
+      },
+      "engineEnabled": {
+        "tmdb.search": true,
+        "tvdb.search": true,
+        "tvdb.collections.search": false,
+        "tvmaze.search": true,
+        "trakt.search": true,
+        "mdblist.search": true,
+        "people_search_movie": false,
+        "people_search_series": false,
+        "mal.search.movie": true,
+        "mal.search.series": true
+      },
+      "searchNames": {},
+      "searchOrder": [
+        "movie",
+        "series",
+        "tvdb.collections.search",
+        "gemini.search",
+        "anime_series",
+        "anime_movie",
+        "people_search_movie",
+        "people_search_series"
+      ]
+    },
+    "streaming": [
+      "atp",
+      "dnp",
+      "pmp",
+      "pcp",
+      "dpe",
+      "sst",
+      "hlu",
+      "cru",
+      "mub"
+    ],
+    "customPosterUrlPattern": "https://btttr.cc/poster-a/imdb/poster-default/{imdb_id}.jpg",
+    "customBackgroundUrlPattern": "",
+    "customLogoUrlPattern": "",
+    "lastModified": 1777962176684,
+    "configVersion": 1777962176684,
+    "configHash": "9c8b157d2322e106",
+    "customThumbnailUrlPattern": "https://btttr.cc/poster-a/imdb/poster-default/{imdb_id}.jpg"
+  },
+  "metadata": {
+    "apiKeysExcluded": false,
+    "totalCatalogs": 251,
+    "enabledCatalogs": 268
+  }
+}
